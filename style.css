@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.letterChange {
+  color: #882d4e;
+}
+.logo-icon {
+  color: #d47290;
+}
+.logo {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.logoHeader {
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  font-size: 2rem;
+}
+.logoHeader .realForm {
+  display: flex;
+  height: 3rem;
+}
+.logoHeader .realForm #search-box {
+  height: 100%;
+  width: 100%;
+  padding: 3px 10px;
+  font-size: 1rem;
+  color: #333;
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  text-transform: none;
+}
+.logoHeader .realForm label {
+  height: 100%;
+  width: 5rem;
+  font-size: 1.5rem;
+  color: #fff;
+  background: #d47290;
+  text-align: center;
+  line-height: 3rem;
+  cursor: pointer;
+}
+.logoHeader .realForm label:hover {
+  background: #564147;
+}
+.navHeader {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 7%;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.1);
+}
+.pagesNavLinks a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 30px;
+  font-size: 1.3rem;
+  padding: 0.1rem 1rem;
+}
+.iconFav {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.pagesNavLinks a:hover {
+  background: #882d4e;
+  color: #fff;
+  border-radius: 5px;
+}
+.iconFav:hover {
+  color: #882d4e;
+}
+/* #menu-bar {
+  font-size: 1.5rem;
+  color: #333;
+  border-radius: 5px;
+  border: 2px solid #333;
+  padding: 0.1rem 0.7rem;
+  cursor: pointer;
+ 
+} */
+
+.skincare-subscribe {
+  text-align: center;
+}
+.SubSection {
+  background-image: url(./Images/Subscribe1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.dealSection {
+  background-image: url(./Images/Abstract2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.realTime{
+    border: solid 3px #23695F;
+    border-radius: 5px;
+    margin: 0px 3px;
+    color: #2F4858;
+}
+.countDown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
