@@ -116,18 +116,17 @@ body {
   border: #d47290;
   font-size: 1.2rem;
 }
-.offerBtn {
+.offerBtn,
+.smallButton {
   background: #d47290;
   padding: 5px 30px;
   border-radius: 10px;
   border: #d47290;
   font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
-.heroBtn:hover {
-  background: #564147;
-  color: #fff;
-}
-.offerBtn:hover {
+.heroBtn:hover, .offerBtn:hover, .smallButton:hover {
   background: #564147;
   color: #fff;
 }
@@ -142,6 +141,29 @@ body {
   background-position: center;
   background-size: cover;
 }
+.skincare-lOffer:hover,
+.skincare-sOffer:hover {
+  transform: scale(1) rotate(3deg);
+}
+.pContextHead {
+  font-family: "Poppins", sans-serif;
+}
+.price,
+.quantity {
+  font-family: "Raleway", sans-serif;
+}
+/* .smallButton{
+  background: #d47290;
+  padding: 5px 30px;
+  border-radius: 10px;
+  border: #d47290;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+} */
+.quantity {
+  display: flex;
+}
 .skincare-sOffer {
   background-image: url(./Images/Offer2.jpg);
   background-position: center;
@@ -155,10 +177,6 @@ body {
 .sText {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-}
-.offerBtn{
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
 }
 .skincare-subscribe {
   text-align: center;
