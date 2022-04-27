@@ -94,6 +94,39 @@ body {
   cursor: pointer;
  
 } */
+.home {
+  padding: 2rem 9%;
+  text-align: left;
+
+}
+.tagline{
+  font-size: 1rem;
+  color: #666;
+  margin-top: 8rem;
+  font-family: "Poppins", sans-serif;
+}
+.slogan{
+  font-size: 3rem;
+  color: #333;
+  font-family: "Raleway", sans-serif;
+}
+.heroBtn{
+  background: #d47290;
+  padding: 5px 40px;
+  border-radius: 10px;
+  border: #d47290;
+  font-size: 1.2rem;
+}
+.heroBtn:hover{
+  background: #564147;
+  color: #fff;
+}
+.heroBtn .herobtn{
+  color: #fff;
+}
+.herobtn{
+  text-decoration: none;
+}
 
 .skincare-subscribe {
   text-align: center;
@@ -112,14 +145,14 @@ body {
   width: 100vw;
   height: 100vh;
 }
-.realTime{
-    border: solid 3px #23695F;
-    border-radius: 5px;
-    margin: 0px 3px;
-    color: #2F4858;
+.realTime {
+  border: solid 3px #23695f;
+  border-radius: 5px;
+  margin: 0px 3px;
+  color: #2f4858;
 }
-.countDown{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
+.countDown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
