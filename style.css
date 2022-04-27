@@ -85,6 +85,13 @@ body {
 .iconFav:hover {
   color: #882d4e;
 }
+.cart-fill {
+  background: #d47290;
+  font-size: 10px;
+  top: 5px;
+  font-family: "Raleway", sans-serif;
+
+}
 /* #menu-bar {
   font-size: 1.5rem;
   color: #333;
@@ -126,7 +133,9 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
-.heroBtn:hover, .offerBtn:hover, .smallButton:hover {
+.heroBtn:hover,
+.offerBtn:hover,
+.smallButton:hover {
   background: #564147;
   color: #fff;
 }
