@@ -97,37 +97,69 @@ body {
 .home {
   padding: 2rem 9%;
   text-align: left;
-
 }
-.tagline{
+.tagline {
   font-size: 1rem;
   color: #666;
   margin-top: 8rem;
   font-family: "Poppins", sans-serif;
 }
-.slogan{
+.slogan {
   font-size: 3rem;
   color: #333;
   font-family: "Raleway", sans-serif;
 }
-.heroBtn{
+.heroBtn {
   background: #d47290;
   padding: 5px 40px;
   border-radius: 10px;
   border: #d47290;
   font-size: 1.2rem;
 }
-.heroBtn:hover{
+.offerBtn {
+  background: #d47290;
+  padding: 5px 30px;
+  border-radius: 10px;
+  border: #d47290;
+  font-size: 1rem;
+}
+.heroBtn:hover {
   background: #564147;
   color: #fff;
 }
-.heroBtn .herobtn{
+.offerBtn:hover {
+  background: #564147;
   color: #fff;
 }
-.herobtn{
+.heroBtn .herobtn {
+  color: #fff;
+}
+.herobtn {
   text-decoration: none;
 }
-
+.skincare-lOffer {
+  background-image: url(./Images/Offer1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.skincare-sOffer {
+  background-image: url(./Images/Offer2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.lOffer,
+.sOffer {
+  font-family: "Poppins", sans-serif;
+}
+.lText,
+.sText {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+.offerBtn{
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
 .skincare-subscribe {
   text-align: center;
 }
