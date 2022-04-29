@@ -85,12 +85,11 @@ body {
 .iconFav:hover {
   color: #882d4e;
 }
-.cart-fill {
+.cart-fill-badge {
   background: #d47290;
   font-size: 10px;
   top: 5px;
   font-family: "Raleway", sans-serif;
-
 }
 /* #menu-bar {
   font-size: 1.5rem;
@@ -124,7 +123,8 @@ body {
   font-size: 1.2rem;
 }
 .offerBtn,
-.smallButton {
+.smallButton,
+.category-button {
   background: #d47290;
   padding: 5px 30px;
   border-radius: 10px;
@@ -135,14 +135,16 @@ body {
 }
 .heroBtn:hover,
 .offerBtn:hover,
-.smallButton:hover {
+.smallButton:hover,
+.category-button:hover {
   background: #564147;
   color: #fff;
 }
 .heroBtn .herobtn {
   color: #fff;
 }
-.herobtn {
+.herobtn,
+.category-button {
   text-decoration: none;
 }
 .skincare-lOffer {
@@ -195,14 +197,14 @@ body {
   background-position: center;
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
 }
 .dealSection {
   background-image: url(./Images/Abstract2.jpg);
   background-position: center;
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
 }
 .realTime {
   border: solid 3px #23695f;
@@ -214,4 +216,15 @@ body {
   display: flex;
   justify-content: space-around;
   text-align: center;
+}
+.skincare-category-title {
+  text-align: center;
+  padding: 10px 50px;
+  margin: 10px 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.skincare-category-title-span {
+  color: #882d4e;
 }
