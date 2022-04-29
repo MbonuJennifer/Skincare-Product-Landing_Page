@@ -185,7 +185,7 @@ body {
   background-size: cover;
 }
 .lOffer,
-.sOffer {
+.sOffer,.skincare-footer-head-link {
   font-family: "Poppins", sans-serif;
 }
 .lText,
@@ -250,9 +250,10 @@ body {
 .contact-wrap {
   background: #eee;
   background-color: #eee 100%;
-  
 }
-.info-wrap{
+.info-wrap,
+.skincare-footer-p,
+.skincare-footer-other-link {
   font-family: "Raleway", sans-serif;
 }
 /* .contact-send-msg{
@@ -264,9 +265,10 @@ body {
   font-size: 16px;
   border-radius: 0px;
   box-shadow: none !important;
-  border: 1px solid rgba(255, 255, 255, 0.2); 
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
-.form-control:focus, .form-control:active {
+.form-control:focus,
+.form-control:active {
   background: transparent;
   border-color: rgba(255, 255, 255, 0.5);
 }
@@ -328,7 +330,8 @@ a {
   transition: 0.3s all ease;
   text-decoration: none;
 }
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none !important;
   outline: none !important;
   box-shadow: none;
@@ -340,19 +343,29 @@ a:hover, a:focus {
 }
 .contactForm h1,
 h2,
-h3{
+h3 {
   line-height: 1.5;
   /* font-weight: bold; */
   color: black;
   font-family: "Raleway", sans-serif;
 }
 /* ends */
-.footer-copyright{
+.footer-copyright {
   background-color: #eee;
   font-family: "Raleway", sans-serif;
-  font-size:1.2rem;
+  font-size: 1.2rem;
 }
-.copyright-text-link{
+.copyright-text-link {
   font-weight: bold;
   color: #000;
+}
+.socalIcons {
+  line-height: center;
+  font-size: 1.5rem;
+}
+.skincare-footer-head-link{
+  margin-top: 30px;
+}
+.skincare-footer-head-link{
+  font-weight: bold;
 }
