@@ -185,7 +185,8 @@ body {
   background-size: cover;
 }
 .lOffer,
-.sOffer,.skincare-footer-head-link {
+.sOffer,
+.skincare-footer-head-link {
   font-family: "Poppins", sans-serif;
 }
 .lText,
@@ -201,7 +202,24 @@ body {
   background-position: center;
   background-size: cover;
   width: 100vw;
-  height: 70vh;
+  height: 40vh;
+  text-align: center;
+  padding: 3rem 1rem;
+  font-size: 900;
+  font-family: "Raleway", sans-serif;
+}
+#footer-Sub {
+  background-color: #882d4e;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+}
+#footer-sub-input {
+  border: none;
+  width: 30%;
+  border-radius: 10px;
+  height: 3rem;
 }
 .dealSection {
   background-image: url(./Images/Abstract2.jpg);
@@ -363,9 +381,9 @@ h3 {
   line-height: center;
   font-size: 1.5rem;
 }
-.skincare-footer-head-link{
+.skincare-footer-head-link {
   margin-top: 30px;
 }
-.skincare-footer-head-link{
+.skincare-footer-head-link {
   font-weight: bold;
 }
